@@ -3,6 +3,10 @@ var c=10;
 let a=[1,2,3,4,5]
 let str="mayur";
 console.log(str);
+console.log("for each")
+a.forEach(element => {
+    console.log(element)
+});
 for(let i=1;i<=5;i++){
     console.log(i);
 }
@@ -34,3 +38,8 @@ if(temp===6){
 }
 
 (temp===7)?console.log("true"):console.log("False");
+
+function greet(){
+    console.log("Hello")
+}
+setTimeout(greet, 2000);
